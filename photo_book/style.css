@@ -39,6 +39,7 @@ h2 {
 .content {
   max-width: 600px;
   margin: 0 auto;
+  padding: 40px;
 }
 
 .content li {
@@ -101,13 +102,7 @@ h2 {
     padding: 10px;
   }
 
-  .content {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
   #index {
-    max-width: 100%;
     padding: 30px;
   }
 
