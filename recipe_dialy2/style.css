@@ -109,3 +109,17 @@ h3 {
   border-bottom: 1px solid #cccccc;
   margin-bottom: 5px;
 }
+
+@media screen and (max-width: 834px){
+  #recipe {
+    display: block;
+  }
+
+  #recipe_image {
+    width: 100%;
+  }
+
+  #recipe_body {
+    width: 100%;
+  }
+}
