@@ -4,3 +4,50 @@
   box-sizing: border-box;
 }
 
+#header {
+  width: 90vw;
+  margin: 0 auto
+}
+
+#main_visual img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#header_nav {
+  display: flex;
+
+}
+
+#header_nav a {
+  color: #000000;
+  margin-right: 30px;
+}
+
+#header_nav p {
+  font-size: 0.8rem;
+}
+
+.nav {
+  font-family: "Crimson Text";
+}
+
+#content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#concept {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content_image img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.content_block {
+  width: 50%;
+}
