@@ -1,15 +1,42 @@
 * {
-  margin: 0 4% 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 #header {
-  height: 40vh;
+  max-width: 960px;
+  height: 270px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 4%;
+  align-items: center;
 }
 
 #header img {
   width: 120px;
+}
+
+#nav {
+  display: flex;
+  padding: 10px 0;
+}
+
+#nav li {
+  margin-left: 30px;
+  list-style: none;
+}
+#nav li a {
+  color: #000000;
+}
+
+#nav li img {
+  width: 20px;
+}
+
+#main_visual img {
+  width: 100%;
+  object-fit: cover;
+  height: 420px;
 }
