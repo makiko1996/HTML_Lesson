@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 
-#header {
+.content {
   max-width: 960px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+#header {
   height: 270px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 4%;
   align-items: center;
 }
 
@@ -39,4 +41,40 @@
   width: 100%;
   object-fit: cover;
   height: 420px;
+  margin-bottom: 60px;
+}
+
+.title {
+  text-align: center;
+  margin: 30px auto;
+}
+
+#name {
+  margin-bottom: 20px;
+}
+
+.add {
+  margin: 0 auto;
+}
+
+#text {
+  margin: 20px auto;
+}
+
+#works {
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+#img_box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+#img_box img {
+  width: 30%;
+  object-fit: cover;
+  margin-bottom: 23px;
 }
